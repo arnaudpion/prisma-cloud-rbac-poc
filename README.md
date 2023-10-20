@@ -8,7 +8,7 @@ First you need an Access Key in Prisma Cloud. Then you need to set up the follow
  - **PC_PY_URL** : Prisma Cloud API Endpoint - please refer to https://pan.dev/prisma-cloud/api/cspm/api-urls/
 
 ### Running the scripts
-Please note that the scripts are provided as is for testing/POC purpose, and are not production-grade.
+Please note that the scripts are provided 'as is' for testing/POC purpose, and are not production-grade.
 
 **01_create_rbac_py**
  - Authenticates with Prisma Cloud
@@ -18,10 +18,10 @@ Please note that the scripts are provided as is for testing/POC purpose, and are
  - Outputs variables that you can use in *02_cleanup_rbac_py* to clean up
 
 **02_cleanup_rbac_py**
-You need to copy the output of *01_create_rbac_py* and paste it in this script
+ - You need to copy the output of *01_create_rbac_py* and paste it in this script
  - Authenticates with Prisma Cloud
  - Delete the Roles previously created 
  - Empty and delete the Account Groups previously created
 
 ### What next ?
-Please feel free to check the Prisma Cloud Python SDK which offers more advanced scripts that can help you write production-grade automation code : https://github.com/PaloAltoNetworks/prismacloud-api-python
+Please feel free to check the Prisma Cloud Python SDK which offers more advanced scripts for production-grade automation : https://github.com/PaloAltoNetworks/prismacloud-api-python
