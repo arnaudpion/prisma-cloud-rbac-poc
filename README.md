@@ -1,6 +1,9 @@
 # prisma-cloud-rbac-poc
 Python script leveraging Prisma Cloud REST API to create roles mapped to cloud accounts
 
+### Disclaimer
+Please note that the scripts are provided 'as is' for testing/POC purpose, and are not production-grade.
+
 ### Prerequisites
 First you need an Access Key in Prisma Cloud. Then you need to set up the following environment variables on your workstation :
  - **PC_PY_IDENTITY** : your Access Key in Prisma Cloud
@@ -8,7 +11,6 @@ First you need an Access Key in Prisma Cloud. Then you need to set up the follow
  - **PC_PY_URL** : Prisma Cloud API Endpoint - please refer to https://pan.dev/prisma-cloud/api/cspm/api-urls/
 
 ### Running the scripts
-Please note that the scripts are provided 'as is' for testing/POC purpose, and are not production-grade.
 
 **01_create_rbac_py**
  - Authenticates with Prisma Cloud
